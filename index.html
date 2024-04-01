@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP VERIFICATION</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>OTP Verification</h1>
+    <div class="input">
+        <input type="email" placeholder="Enter Your Email" class="email">
+        <button id="btn" onclick="sendOTP()">Send OTP</button>
+    </div> 
+    <div class="success">
+        OTP verified Successfully
+    </div>
+    <div class="error">
+        Invalid OTP
+    </div>
+    <div class="verification">
+        <h2 id="title">An OTP has been sent to <span class="emailpartial">***orlddoubt@gmail.com</span></h2>
+        <div class="otp">
+            <input type="number" class="otp_num otp_num1" id="otp1">
+            <input type="number" class="otp_num otp_num2" id="otp2">
+            <input type="number" class="otp_num otp_num3" id="otp3">
+            <input type="number" class="otp_num otp_num4" id="otp4">
+        </div>
+     </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
